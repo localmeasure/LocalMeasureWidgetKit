@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "LocalMeasureWidgetKit"
-  s.version          = "0.1.0"
-  s.summary          = "Integrate your Local Measure widgets in your app."
+  s.version          = "0.1.1"
+  s.summary          = "Quick and easy Local Measure widget integration."
   s.description      = <<-DESC
                         This CocoaPod provides the ability to integrate Local Measure Widgets to your app quickly and easily.
                        DESC
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license          = "MIT"
   s.author           = { "solal" => "solal@getlocalmeasure.com" }
   s.source           = { :git => "https://github.com/localmeasure/LocalMeasureWidgetKit.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/localmeasure'
+  s.social_media_url = "https://twitter.com/localmeasure"
 
   s.ios.deployment_target = "8.0"
   s.source_files = "LocalMeasureWidgetKit/*.swift"
