@@ -1,4 +1,4 @@
-[![CocoaPods](https://img.shields.io/cocoapods/v/LocalMeasureWidgetKit.svg?maxAge=2592000)](https://cocoapods.org/pods/LocalMeasureWidgetKit)
+[![CocoaPods](https://img.shields.io/cocoapods/v/LocalMeasureWidgetKit.svg)](https://cocoapods.org/pods/LocalMeasureWidgetKit)
 
 ![Local Measure](https://3h05ydjpmgg26w82hvkove2m-wpengine.netdna-ssl.com/wp-content/themes/local-measure/images/lm-logo.svg)
 
