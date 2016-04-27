@@ -8,9 +8,9 @@
 
 import Foundation
 
-class LMWidgetKit {
+public class LMWidgetKit {
     
-    func setup(userHash: String) {
+    public func setup(userHash: String) {
         do {
             try LMWidgetKitSetup.sharedInstance.setUserHash(userHash)
         } catch {

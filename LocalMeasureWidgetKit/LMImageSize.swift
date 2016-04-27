@@ -8,13 +8,13 @@
 
 import ObjectMapper
 
-class LMImageSize: Mappable {
-    var width: Int?
-    var height: Int?
+public class LMImageSize: Mappable {
+    public var width: Int?
+    public var height: Int?
     
-    required init?(_ map: Map) {}
+    public required init?(_ map: Map) {}
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         width  <- map["width"]
         height <- map["height"]
     }

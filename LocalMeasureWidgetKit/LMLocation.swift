@@ -8,15 +8,15 @@
 
 import ObjectMapper
 
-class LMLocation: Mappable {
-    var latitude: Float?
-    var longitude: Float?
-    var address: String?
-    var name: String?
+public class LMLocation: Mappable {
+    public var latitude: Float?
+    public var longitude: Float?
+    public var address: String?
+    public var name: String?
     
-    required init?(_ map: Map) {}
+    required public init?(_ map: Map) {}
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         latitude  <- map["latitude"]
         longitude <- map["longitude"]
         address   <- map["address"]

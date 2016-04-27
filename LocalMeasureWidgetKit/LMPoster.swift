@@ -8,14 +8,14 @@
 
 import ObjectMapper
 
-class LMPoster: Mappable {
-    var source: LMSource?
-    var name: String?
-    var avatar: String?
+public class LMPoster: Mappable {
+    public var source: LMSource?
+    public var name: String?
+    public var avatar: String?
     
-    required init?(_ map: Map) {}
+    public required init?(_ map: Map) {}
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         source <- map["source"]
         name   <- map["name"]
         avatar <- map["avatar"]

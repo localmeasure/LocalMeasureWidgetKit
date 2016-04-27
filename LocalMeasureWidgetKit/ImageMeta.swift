@@ -8,14 +8,14 @@
 
 import ObjectMapper
 
-class LMImageMeta: Mappable {
-    var url: String?
-    var width: Int?
-    var height: Int?
+public class LMImageMeta: Mappable {
+    public var url: String?
+    public var width: Int?
+    public var height: Int?
     
-    required init?(_ map: Map) {}
+    public required init?(_ map: Map) {}
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         url    <- map["url"]
         width  <- map["width"]
         height <- map["height"]

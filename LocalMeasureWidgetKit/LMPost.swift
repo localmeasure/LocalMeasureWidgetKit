@@ -8,22 +8,22 @@
 
 import ObjectMapper
 
-class LMPost: Mappable {
-    var rating: Int?
-    var text: String?
-    var image: String?
-    var video: String?
-    var imageSize: LMImageSize?
-    var images: [LMImageMeta]?
-    var kind: String?
-    var created: String?
-    var source: LMSource?
-    var poster: LMPoster?
-    var link: String?
+public class LMPost: Mappable {
+    public var rating: Int?
+    public var text: String?
+    public var image: String?
+    public var video: String?
+    public var imageSize: LMImageSize?
+    public var images: [LMImageMeta]?
+    public var kind: String?
+    public var created: String?
+    public var source: LMSource?
+    public var poster: LMPoster?
+    public var link: String?
     
-    required init?(_ map: Map) {}
+    public required init?(_ map: Map) {}
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         rating    <- map["rating"]
         text      <- map["text"]
         image     <- map["image"]

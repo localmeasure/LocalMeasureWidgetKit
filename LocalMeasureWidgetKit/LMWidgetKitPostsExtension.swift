@@ -11,7 +11,7 @@ import ObjectMapper
 
 extension LMWidgetKit {
     
-    func posts(widgetHash: String, completion: (posts: [LMPost]) -> Void) {
+    public func posts(widgetHash: String, completion: (posts: [LMPost]) -> Void) {
         if widgetHash.isEmpty {
             print("An empty widget hash was passed.")
             return completion( posts: [LMPost]() )
