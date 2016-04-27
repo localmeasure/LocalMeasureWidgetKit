@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9A53C3DA432C47259E23AE91'
+               BlueprintIdentifier = '77224D590A9A3C0BB657FAA8'
                BlueprintName = 'Pods-LocalMeasureWidgetKitTests'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_LocalMeasureWidgetKitTests.framework'>
