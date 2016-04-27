@@ -10,8 +10,8 @@ Quickly and easily integrate your Local Measure widgets to your app.
 
 ## Features
 
-- [x] Get a list of your widgets as an array of `LMWidget`s.
-- [x] Get a list of a widget's posts as an array of `LMPost`s.
+- [x] Get a list of your widgets as an array of `LMWidget`.
+- [x] Get a list of a widget's posts as an array of `LMPost`.
 
 ---
 
@@ -49,7 +49,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'LocalMeasureWidgetKit', '~> 0.1.0'
+pod 'LocalMeasureWidgetKit', '~> 0.1.2'
 ```
 
 Then, run the following command:

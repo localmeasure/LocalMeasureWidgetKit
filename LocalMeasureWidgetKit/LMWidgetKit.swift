@@ -10,6 +10,8 @@ import Foundation
 
 public class LMWidgetKit {
     
+    public init() {}
+    
     public func setup(userHash: String) {
         do {
             try LMWidgetKitSetup.sharedInstance.setUserHash(userHash)
