@@ -1,6 +1,34 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/LocalMeasureWidgetKit.svg?maxAge=2592000)](https://cocoapods.org/pods/LocalMeasureWidgetKit)
 
+![Local Measure](https://3h05ydjpmgg26w82hvkove2m-wpengine.netdna-ssl.com/wp-content/themes/local-measure/images/lm-logo.svg)
+
 # Local Measure Widget Kit
+
+Quickly and easily integrate your Local Measure widgets to your app.
+
+---
+
+## Features
+
+- [x] Get a list of your widgets as an array of `LMWidget`s.
+- [x] Get a list of a widget's posts as an array of `LMPost`s.
+
+---
+
+## Requirements
+
+- iOS 8.0+
+- Xcode 7.3+
+
+---
+
+## Get in touch
+
+If you are a Local Measure customer and need help setting up your widget integration, please get in touch with <solal@getlocalmeasure.com>
+
+If your are not a Local Measure client, you will find our contact page here: [getlocalmeasure.com/contact](https://www.getlocalmeasure.com/contact)
+
+---
 
 ## Installation
 
@@ -29,3 +57,8 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
+
+---
+
+## Usage
+
