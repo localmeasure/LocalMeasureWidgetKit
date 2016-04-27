@@ -7,9 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D3B50AA0AACA5FD38FBB6C1 /* Pods_LocalMeasureWidgetKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A14DE70AFC6AFC253E94B7 /* Pods_LocalMeasureWidgetKitTests.framework */; };
 		4F1898F51CCE966A00F13252 /* LocalMeasureWidgetKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1898F41CCE966A00F13252 /* LocalMeasureWidgetKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F1898FC1CCE966A00F13252 /* LocalMeasureWidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1898F11CCE966A00F13252 /* LocalMeasureWidgetKit.framework */; };
-		4F1899011CCE966A00F13252 /* LocalMeasureWidgetKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899001CCE966A00F13252 /* LocalMeasureWidgetKitTests.swift */; };
+		4F18990F1CCE977B00F13252 /* LMWidgetKitSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18990E1CCE977B00F13252 /* LMWidgetKitSetup.swift */; };
+		4F1899101CCE977B00F13252 /* LMWidgetKitSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18990E1CCE977B00F13252 /* LMWidgetKitSetup.swift */; };
+		4F1899121CCE997C00F13252 /* LMWidgetKitSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899111CCE997C00F13252 /* LMWidgetKitSetupTests.swift */; };
+		4F1899141CCEA49100F13252 /* LMWidgetKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899131CCEA49100F13252 /* LMWidgetKit.swift */; };
+		4F1899161CCEA58C00F13252 /* LMWidgetKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899151CCEA58C00F13252 /* LMWidgetKitTests.swift */; };
+		4F1899171CCEA5C200F13252 /* LMWidgetKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899131CCEA49100F13252 /* LMWidgetKit.swift */; };
+		4F1899191CCECBC000F13252 /* LMLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899181CCECBC000F13252 /* LMLocation.swift */; };
+		4F18991B1CCECBC900F13252 /* LMPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18991A1CCECBC900F13252 /* LMPost.swift */; };
+		4F18991D1CCECBD000F13252 /* LMPoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18991C1CCECBD000F13252 /* LMPoster.swift */; };
+		4F18991F1CCECBDA00F13252 /* LMSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18991E1CCECBDA00F13252 /* LMSource.swift */; };
+		4F1899211CCECBE100F13252 /* LMWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899201CCECBE100F13252 /* LMWidget.swift */; };
+		4F1899231CCECBED00F13252 /* LMImageSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899221CCECBED00F13252 /* LMImageSize.swift */; };
+		4F1899251CCECBF400F13252 /* ImageMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899241CCECBF400F13252 /* ImageMeta.swift */; };
+		4F1899271CCECFB800F13252 /* LMWidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899261CCECFB800F13252 /* LMWidgetTests.swift */; };
+		4F1899281CCECFD700F13252 /* LMLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899181CCECBC000F13252 /* LMLocation.swift */; };
+		4F1899291CCECFDA00F13252 /* LMPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18991A1CCECBC900F13252 /* LMPost.swift */; };
+		4F18992A1CCECFDC00F13252 /* LMPoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18991C1CCECBD000F13252 /* LMPoster.swift */; };
+		4F18992B1CCECFDE00F13252 /* LMSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18991E1CCECBDA00F13252 /* LMSource.swift */; };
+		4F18992C1CCECFE000F13252 /* LMWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899201CCECBE100F13252 /* LMWidget.swift */; };
+		4F18992D1CCECFE200F13252 /* LMImageSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899221CCECBED00F13252 /* LMImageSize.swift */; };
+		4F18992E1CCECFE500F13252 /* ImageMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899241CCECBF400F13252 /* ImageMeta.swift */; };
+		4FA695321CCFBB9E004BC611 /* LMWidgetKitPostsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA695311CCFBB9E004BC611 /* LMWidgetKitPostsExtension.swift */; };
+		4FA695341CCFBBAD004BC611 /* LMWidgetKitWidgetsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA695331CCFBBAD004BC611 /* LMWidgetKitWidgetsExtension.swift */; };
+		4FA695361CCFC0F4004BC611 /* WidgetsGatewayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA695351CCFC0F4004BC611 /* WidgetsGatewayTests.swift */; };
+		4FA695371CCFC0F9004BC611 /* LMWidgetKitWidgetsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA695331CCFBBAD004BC611 /* LMWidgetKitWidgetsExtension.swift */; };
+		4FA695391CCFF96C004BC611 /* PostsGatewayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA695381CCFF96C004BC611 /* PostsGatewayTests.swift */; };
+		4FA6953A1CCFF974004BC611 /* LMWidgetKitPostsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA695311CCFBB9E004BC611 /* LMWidgetKitPostsExtension.swift */; };
+		4FA6953E1CD008AD004BC611 /* widget_posts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA6953B1CD008AD004BC611 /* widget_posts.json */; };
+		4FA6953F1CD008AD004BC611 /* widget_single.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA6953C1CD008AD004BC611 /* widget_single.json */; };
+		4FA695401CD008AD004BC611 /* widgets.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA6953D1CD008AD004BC611 /* widgets.json */; };
+		DB12180DC32D46FA17EC6AF8 /* Pods_LocalMeasureWidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB2ED8506F3C6EEDD506291 /* Pods_LocalMeasureWidgetKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +54,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D7427072BB8911F3E4A6CA9 /* Pods-LocalMeasureWidgetKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalMeasureWidgetKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalMeasureWidgetKit/Pods-LocalMeasureWidgetKit.release.xcconfig"; sourceTree = "<group>"; };
+		2656172E42DFF76AD7FC5B97 /* Pods-LocalMeasureWidgetKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalMeasureWidgetKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalMeasureWidgetKit/Pods-LocalMeasureWidgetKit.debug.xcconfig"; sourceTree = "<group>"; };
 		4F1898F11CCE966A00F13252 /* LocalMeasureWidgetKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalMeasureWidgetKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1898F41CCE966A00F13252 /* LocalMeasureWidgetKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalMeasureWidgetKit.h; sourceTree = "<group>"; };
 		4F1898F61CCE966A00F13252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F1898FB1CCE966A00F13252 /* LocalMeasureWidgetKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalMeasureWidgetKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F1899001CCE966A00F13252 /* LocalMeasureWidgetKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMeasureWidgetKitTests.swift; sourceTree = "<group>"; };
 		4F1899021CCE966A00F13252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F18990E1CCE977B00F13252 /* LMWidgetKitSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMWidgetKitSetup.swift; sourceTree = "<group>"; };
+		4F1899111CCE997C00F13252 /* LMWidgetKitSetupTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMWidgetKitSetupTests.swift; sourceTree = "<group>"; };
+		4F1899131CCEA49100F13252 /* LMWidgetKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMWidgetKit.swift; sourceTree = "<group>"; };
+		4F1899151CCEA58C00F13252 /* LMWidgetKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMWidgetKitTests.swift; sourceTree = "<group>"; };
+		4F1899181CCECBC000F13252 /* LMLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMLocation.swift; sourceTree = "<group>"; };
+		4F18991A1CCECBC900F13252 /* LMPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMPost.swift; sourceTree = "<group>"; };
+		4F18991C1CCECBD000F13252 /* LMPoster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMPoster.swift; sourceTree = "<group>"; };
+		4F18991E1CCECBDA00F13252 /* LMSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMSource.swift; sourceTree = "<group>"; };
+		4F1899201CCECBE100F13252 /* LMWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMWidget.swift; sourceTree = "<group>"; };
+		4F1899221CCECBED00F13252 /* LMImageSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMImageSize.swift; sourceTree = "<group>"; };
+		4F1899241CCECBF400F13252 /* ImageMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMeta.swift; sourceTree = "<group>"; };
+		4F1899261CCECFB800F13252 /* LMWidgetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMWidgetTests.swift; sourceTree = "<group>"; };
+		4FA695311CCFBB9E004BC611 /* LMWidgetKitPostsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMWidgetKitPostsExtension.swift; sourceTree = "<group>"; };
+		4FA695331CCFBBAD004BC611 /* LMWidgetKitWidgetsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMWidgetKitWidgetsExtension.swift; sourceTree = "<group>"; };
+		4FA695351CCFC0F4004BC611 /* WidgetsGatewayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetsGatewayTests.swift; sourceTree = "<group>"; };
+		4FA695381CCFF96C004BC611 /* PostsGatewayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsGatewayTests.swift; sourceTree = "<group>"; };
+		4FA6953B1CD008AD004BC611 /* widget_posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = widget_posts.json; sourceTree = "<group>"; };
+		4FA6953C1CD008AD004BC611 /* widget_single.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = widget_single.json; sourceTree = "<group>"; };
+		4FA6953D1CD008AD004BC611 /* widgets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = widgets.json; sourceTree = "<group>"; };
+		79A14DE70AFC6AFC253E94B7 /* Pods_LocalMeasureWidgetKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalMeasureWidgetKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB2ED8506F3C6EEDD506291 /* Pods_LocalMeasureWidgetKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalMeasureWidgetKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1B9BF256585C78B14DC299 /* Pods-LocalMeasureWidgetKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalMeasureWidgetKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalMeasureWidgetKitTests/Pods-LocalMeasureWidgetKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFD2F94CE2493B521B49C2A7 /* Pods-LocalMeasureWidgetKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalMeasureWidgetKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalMeasureWidgetKitTests/Pods-LocalMeasureWidgetKitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB12180DC32D46FA17EC6AF8 /* Pods_LocalMeasureWidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1898FC1CCE966A00F13252 /* LocalMeasureWidgetKit.framework in Frameworks */,
+				1D3B50AA0AACA5FD38FBB6C1 /* Pods_LocalMeasureWidgetKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +113,8 @@
 				4F1898F31CCE966A00F13252 /* LocalMeasureWidgetKit */,
 				4F1898FF1CCE966A00F13252 /* LocalMeasureWidgetKitTests */,
 				4F1898F21CCE966A00F13252 /* Products */,
+				6BDCC1D724D653CAD8E12C07 /* Pods */,
+				61BA5D1FC3698C802CD36019 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +132,9 @@
 			children = (
 				4F1898F41CCE966A00F13252 /* LocalMeasureWidgetKit.h */,
 				4F1898F61CCE966A00F13252 /* Info.plist */,
+				4F18990B1CCE967000F13252 /* Lib */,
+				4F18990C1CCE967E00F13252 /* Models */,
+				4F18990D1CCE968900F13252 /* Gateways */,
 			);
 			path = LocalMeasureWidgetKit;
 			sourceTree = "<group>";
@@ -80,10 +142,77 @@
 		4F1898FF1CCE966A00F13252 /* LocalMeasureWidgetKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				4F1899001CCE966A00F13252 /* LocalMeasureWidgetKitTests.swift */,
+				4F1899111CCE997C00F13252 /* LMWidgetKitSetupTests.swift */,
+				4F1899151CCEA58C00F13252 /* LMWidgetKitTests.swift */,
+				4F1899261CCECFB800F13252 /* LMWidgetTests.swift */,
+				4FA695351CCFC0F4004BC611 /* WidgetsGatewayTests.swift */,
+				4FA695381CCFF96C004BC611 /* PostsGatewayTests.swift */,
 				4F1899021CCE966A00F13252 /* Info.plist */,
+				4F1899351CCED03100F13252 /* Fixtures */,
 			);
 			path = LocalMeasureWidgetKitTests;
+			sourceTree = "<group>";
+		};
+		4F18990B1CCE967000F13252 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				4F18990E1CCE977B00F13252 /* LMWidgetKitSetup.swift */,
+				4F1899131CCEA49100F13252 /* LMWidgetKit.swift */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		4F18990C1CCE967E00F13252 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F1899181CCECBC000F13252 /* LMLocation.swift */,
+				4F18991A1CCECBC900F13252 /* LMPost.swift */,
+				4F18991C1CCECBD000F13252 /* LMPoster.swift */,
+				4F18991E1CCECBDA00F13252 /* LMSource.swift */,
+				4F1899201CCECBE100F13252 /* LMWidget.swift */,
+				4F1899221CCECBED00F13252 /* LMImageSize.swift */,
+				4F1899241CCECBF400F13252 /* ImageMeta.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4F18990D1CCE968900F13252 /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				4FA695331CCFBBAD004BC611 /* LMWidgetKitWidgetsExtension.swift */,
+				4FA695311CCFBB9E004BC611 /* LMWidgetKitPostsExtension.swift */,
+			);
+			name = Gateways;
+			sourceTree = "<group>";
+		};
+		4F1899351CCED03100F13252 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				4FA6953B1CD008AD004BC611 /* widget_posts.json */,
+				4FA6953C1CD008AD004BC611 /* widget_single.json */,
+				4FA6953D1CD008AD004BC611 /* widgets.json */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		61BA5D1FC3698C802CD36019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FB2ED8506F3C6EEDD506291 /* Pods_LocalMeasureWidgetKit.framework */,
+				79A14DE70AFC6AFC253E94B7 /* Pods_LocalMeasureWidgetKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BDCC1D724D653CAD8E12C07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2656172E42DFF76AD7FC5B97 /* Pods-LocalMeasureWidgetKit.debug.xcconfig */,
+				1D7427072BB8911F3E4A6CA9 /* Pods-LocalMeasureWidgetKit.release.xcconfig */,
+				9B1B9BF256585C78B14DC299 /* Pods-LocalMeasureWidgetKitTests.debug.xcconfig */,
+				DFD2F94CE2493B521B49C2A7 /* Pods-LocalMeasureWidgetKitTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F1899051CCE966A00F13252 /* Build configuration list for PBXNativeTarget "LocalMeasureWidgetKit" */;
 			buildPhases = (
+				E3C0FFF62A83ADAB8A61A205 /* Check Pods Manifest.lock */,
 				4F1898EC1CCE966A00F13252 /* Sources */,
 				4F1898ED1CCE966A00F13252 /* Frameworks */,
 				4F1898EE1CCE966A00F13252 /* Headers */,
 				4F1898EF1CCE966A00F13252 /* Resources */,
+				8287779F813440325EF828DF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F1899081CCE966A00F13252 /* Build configuration list for PBXNativeTarget "LocalMeasureWidgetKitTests" */;
 			buildPhases = (
+				8289FE24953136044A671322 /* Check Pods Manifest.lock */,
 				4F1898F71CCE966A00F13252 /* Sources */,
 				4F1898F81CCE966A00F13252 /* Frameworks */,
 				4F1898F91CCE966A00F13252 /* Resources */,
+				D8B4A7710D114F3FAD6B4D1F /* Embed Pods Frameworks */,
+				7599C4DB10CA8CB39E28E828 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,16 +318,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA6953E1CD008AD004BC611 /* widget_posts.json in Resources */,
+				4FA695401CD008AD004BC611 /* widgets.json in Resources */,
+				4FA6953F1CD008AD004BC611 /* widget_single.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7599C4DB10CA8CB39E28E828 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocalMeasureWidgetKitTests/Pods-LocalMeasureWidgetKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8287779F813440325EF828DF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocalMeasureWidgetKit/Pods-LocalMeasureWidgetKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8289FE24953136044A671322 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B4A7710D114F3FAD6B4D1F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocalMeasureWidgetKitTests/Pods-LocalMeasureWidgetKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C0FFF62A83ADAB8A61A205 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F1898EC1CCE966A00F13252 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1899231CCECBED00F13252 /* LMImageSize.swift in Sources */,
+				4FA695321CCFBB9E004BC611 /* LMWidgetKitPostsExtension.swift in Sources */,
+				4F1899251CCECBF400F13252 /* ImageMeta.swift in Sources */,
+				4F18991D1CCECBD000F13252 /* LMPoster.swift in Sources */,
+				4F18990F1CCE977B00F13252 /* LMWidgetKitSetup.swift in Sources */,
+				4F18991F1CCECBDA00F13252 /* LMSource.swift in Sources */,
+				4F1899191CCECBC000F13252 /* LMLocation.swift in Sources */,
+				4F1899141CCEA49100F13252 /* LMWidgetKit.swift in Sources */,
+				4F18991B1CCECBC900F13252 /* LMPost.swift in Sources */,
+				4FA695341CCFBBAD004BC611 /* LMWidgetKitWidgetsExtension.swift in Sources */,
+				4F1899211CCECBE100F13252 /* LMWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +427,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1899011CCE966A00F13252 /* LocalMeasureWidgetKitTests.swift in Sources */,
+				4F1899271CCECFB800F13252 /* LMWidgetTests.swift in Sources */,
+				4F1899281CCECFD700F13252 /* LMLocation.swift in Sources */,
+				4F18992D1CCECFE200F13252 /* LMImageSize.swift in Sources */,
+				4F1899291CCECFDA00F13252 /* LMPost.swift in Sources */,
+				4F18992E1CCECFE500F13252 /* ImageMeta.swift in Sources */,
+				4FA6953A1CCFF974004BC611 /* LMWidgetKitPostsExtension.swift in Sources */,
+				4FA695391CCFF96C004BC611 /* PostsGatewayTests.swift in Sources */,
+				4F1899121CCE997C00F13252 /* LMWidgetKitSetupTests.swift in Sources */,
+				4F1899161CCEA58C00F13252 /* LMWidgetKitTests.swift in Sources */,
+				4FA695361CCFC0F4004BC611 /* WidgetsGatewayTests.swift in Sources */,
+				4F1899101CCE977B00F13252 /* LMWidgetKitSetup.swift in Sources */,
+				4FA695371CCFC0F9004BC611 /* LMWidgetKitWidgetsExtension.swift in Sources */,
+				4F18992C1CCECFE000F13252 /* LMWidget.swift in Sources */,
+				4F1899171CCEA5C200F13252 /* LMWidgetKit.swift in Sources */,
+				4F18992B1CCECFDE00F13252 /* LMSource.swift in Sources */,
+				4F18992A1CCECFDC00F13252 /* LMPoster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +550,9 @@
 		};
 		4F1899061CCE966A00F13252 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2656172E42DFF76AD7FC5B97 /* Pods-LocalMeasureWidgetKit.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +563,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.getlocalmeasure.widgets.LocalMeasureWidgetKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		4F1899071CCE966A00F13252 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7427072BB8911F3E4A6CA9 /* Pods-LocalMeasureWidgetKit.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -341,6 +587,7 @@
 		};
 		4F1899091CCE966A00F13252 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1B9BF256585C78B14DC299 /* Pods-LocalMeasureWidgetKitTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LocalMeasureWidgetKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -351,6 +598,7 @@
 		};
 		4F18990A1CCE966A00F13252 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD2F94CE2493B521B49C2A7 /* Pods-LocalMeasureWidgetKitTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LocalMeasureWidgetKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -378,6 +626,7 @@
 				4F1899071CCE966A00F13252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F1899081CCE966A00F13252 /* Build configuration list for PBXNativeTarget "LocalMeasureWidgetKitTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +635,7 @@
 				4F18990A1CCE966A00F13252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
