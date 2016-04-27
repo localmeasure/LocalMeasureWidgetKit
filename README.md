@@ -1,3 +1,5 @@
+[![CocoaPods](https://img.shields.io/cocoapods/v/LocalMeasureWidgetKit.svg?maxAge=2592000)](https://cocoapods.org/pods/LocalMeasureWidgetKit)
+
 # Local Measure Widget Kit
 
 ## Installation
