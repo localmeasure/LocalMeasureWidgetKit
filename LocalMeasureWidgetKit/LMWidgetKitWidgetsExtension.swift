@@ -11,7 +11,7 @@ import ObjectMapper
 
 extension LMWidgetKit {
     
-    func widgets(completion: (widgets: [LMWidget]) -> Void) {
+    public func widgets(completion: (widgets: [LMWidget]) -> Void) {
         do {
             let url = try "\(LMWidgetKitSetup.sharedInstance.getURL())/widgets.json"
             Alamofire.request(.GET, url).responseJSON { response in

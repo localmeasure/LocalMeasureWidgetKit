@@ -8,27 +8,27 @@
 
 import ObjectMapper
 
-class LMWidget: Mappable {
-    var background_time: String?
-    var hash: String?
-    var description: String?
-    var title: String?
-    var created_at: String?
-    var date_start: String?
-    var locations: [LMLocation]?
-    var is_frozen: Bool?
-    var post_time: String?
-    var limit: Int?
-    var no_load_more: Bool?
-    var order_by: String?
-    var no_branding: Bool?
-    var type: String?
-    var date_end: String?
-    var grid_size: String?
+public class LMWidget: Mappable {
+    public var background_time: String?
+    public var hash: String?
+    public var description: String?
+    public var title: String?
+    public var created_at: String?
+    public var date_start: String?
+    public var locations: [LMLocation]?
+    public var is_frozen: Bool?
+    public var post_time: String?
+    public var limit: Int?
+    public var no_load_more: Bool?
+    public var order_by: String?
+    public var no_branding: Bool?
+    public var type: String?
+    public var date_end: String?
+    public var grid_size: String?
     
-    required init?(_ map: Map) {}
+    public required init?(_ map: Map) {}
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         background_time <- map["background_time"]
         hash            <- map["hash"]
         description     <- map["description"]

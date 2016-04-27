@@ -8,14 +8,14 @@
 
 import ObjectMapper
 
-class LMSource: Mappable {
-    var link: String?
-    var network: String?
-    var id: String?
+public class LMSource: Mappable {
+    public var link: String?
+    public var network: String?
+    public var id: String?
     
-    required init?(_ map: Map) {}
+    public required init?(_ map: Map) {}
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         link    <- map["link"]
         network <- map["network"]
         id      <- map["id"]
