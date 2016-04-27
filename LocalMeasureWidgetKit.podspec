@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "LocalMeasureWidgetKit"
-  s.version          = "0.1.2"
+  s.version          = "0.1.21"
   s.summary          = "Quick and easy Local Measure widget integration."
   s.description      = <<-DESC
                         This CocoaPod provides the ability to integrate Local Measure Widgets to your app quickly and easily.
