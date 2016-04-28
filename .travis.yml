@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode6.4
+xcode_workspace: LocalMeasureWidgetKit.xcworkspace
+xcode_scheme: LocalMeasureWidgetKit
+xcode_sdk: iphonesimulator8.4
