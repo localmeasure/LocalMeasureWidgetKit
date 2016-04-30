@@ -33,9 +33,7 @@
 		4F18992E1CCECFE500F13252 /* ImageMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1899241CCECBF400F13252 /* ImageMeta.swift */; };
 		4FA695321CCFBB9E004BC611 /* LMWidgetKitPostsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA695311CCFBB9E004BC611 /* LMWidgetKitPostsExtension.swift */; };
 		4FA695341CCFBBAD004BC611 /* LMWidgetKitWidgetsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA695331CCFBBAD004BC611 /* LMWidgetKitWidgetsExtension.swift */; };
-		4FA695361CCFC0F4004BC611 /* WidgetsGatewayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA695351CCFC0F4004BC611 /* WidgetsGatewayTests.swift */; };
 		4FA695371CCFC0F9004BC611 /* LMWidgetKitWidgetsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA695331CCFBBAD004BC611 /* LMWidgetKitWidgetsExtension.swift */; };
-		4FA695391CCFF96C004BC611 /* PostsGatewayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA695381CCFF96C004BC611 /* PostsGatewayTests.swift */; };
 		4FA6953A1CCFF974004BC611 /* LMWidgetKitPostsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA695311CCFBB9E004BC611 /* LMWidgetKitPostsExtension.swift */; };
 		4FA6953E1CD008AD004BC611 /* widget_posts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA6953B1CD008AD004BC611 /* widget_posts.json */; };
 		4FA6953F1CD008AD004BC611 /* widget_single.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA6953C1CD008AD004BC611 /* widget_single.json */; };
@@ -75,8 +73,6 @@
 		4F1899261CCECFB800F13252 /* LMWidgetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMWidgetTests.swift; sourceTree = "<group>"; };
 		4FA695311CCFBB9E004BC611 /* LMWidgetKitPostsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMWidgetKitPostsExtension.swift; sourceTree = "<group>"; };
 		4FA695331CCFBBAD004BC611 /* LMWidgetKitWidgetsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMWidgetKitWidgetsExtension.swift; sourceTree = "<group>"; };
-		4FA695351CCFC0F4004BC611 /* WidgetsGatewayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetsGatewayTests.swift; sourceTree = "<group>"; };
-		4FA695381CCFF96C004BC611 /* PostsGatewayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsGatewayTests.swift; sourceTree = "<group>"; };
 		4FA6953B1CD008AD004BC611 /* widget_posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = widget_posts.json; sourceTree = "<group>"; };
 		4FA6953C1CD008AD004BC611 /* widget_single.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = widget_single.json; sourceTree = "<group>"; };
 		4FA6953D1CD008AD004BC611 /* widgets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = widgets.json; sourceTree = "<group>"; };
@@ -145,8 +141,6 @@
 				4F1899111CCE997C00F13252 /* LMWidgetKitSetupTests.swift */,
 				4F1899151CCEA58C00F13252 /* LMWidgetKitTests.swift */,
 				4F1899261CCECFB800F13252 /* LMWidgetTests.swift */,
-				4FA695351CCFC0F4004BC611 /* WidgetsGatewayTests.swift */,
-				4FA695381CCFF96C004BC611 /* PostsGatewayTests.swift */,
 				4F1899021CCE966A00F13252 /* Info.plist */,
 				4F1899351CCED03100F13252 /* Fixtures */,
 			);
@@ -433,10 +427,8 @@
 				4F1899291CCECFDA00F13252 /* LMPost.swift in Sources */,
 				4F18992E1CCECFE500F13252 /* ImageMeta.swift in Sources */,
 				4FA6953A1CCFF974004BC611 /* LMWidgetKitPostsExtension.swift in Sources */,
-				4FA695391CCFF96C004BC611 /* PostsGatewayTests.swift in Sources */,
 				4F1899121CCE997C00F13252 /* LMWidgetKitSetupTests.swift in Sources */,
 				4F1899161CCEA58C00F13252 /* LMWidgetKitTests.swift in Sources */,
-				4FA695361CCFC0F4004BC611 /* WidgetsGatewayTests.swift in Sources */,
 				4F1899101CCE977B00F13252 /* LMWidgetKitSetup.swift in Sources */,
 				4FA695371CCFC0F9004BC611 /* LMWidgetKitWidgetsExtension.swift in Sources */,
 				4F18992C1CCECFE000F13252 /* LMWidget.swift in Sources */,

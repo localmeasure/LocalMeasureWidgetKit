@@ -17,25 +17,26 @@ extension LMWidgetKit {
      You pass it a widget hash and a closure as a completion handler. Once the API call has returned the list of widgets, your closure will handle the results.
      
      - Parameter widgetHash: the hash of the widget you want to get posts from
-     - Parameter completion: a closure passing an array of `LMWidget` and returning `Void`
+     - Parameter success: a closure passing an array of `LMPost` and returning `Void` if HTTP call and data parsing are successful
+     - Parameter failure: a closure passing an `NSError` if the HTTP call or data parsing failed
      */
-    public func posts(widgetHash: String, completion: (posts: [LMPost]) -> Void) {
+    public func posts(widgetHash: String, success: (posts: [LMPost]) -> Void, failure: (error: NSError) -> Void) {
         if widgetHash.isEmpty {
-            print("An empty widget hash was passed.")
-            return completion( posts: [LMPost]() )
+            let e = NSError(domain: "kCFErrorHTTPBadURL", code: 305, userInfo: ["localizedDescription": "The requested URL could not be retrieved."])
+            failure(error: e)
         } else {
             let url = self.widgetURL(widgetHash)
             Alamofire.request(.GET, url).responseJSON { response in
                 if let JSON = response.result.value {
                     let postList: AnyObject? = JSON["posts"]!
-                    completion( posts: self.parseJSON(postList!) )
+                    success( posts: self.parseJSON(postList!) )
                 } else {
-                    completion( posts: [LMPost]() )
+                    let e = NSError(domain: "kCFErrorHTTPParseFailure", code: 303, userInfo: ["localizedDescription": "The HTTP server response could not be parsed."])
+                    failure(error: e)
                 }
             }
         }
     }
-    
     
     /**
      Parses the JSON returned by the API call using the ObjectMapper library.
