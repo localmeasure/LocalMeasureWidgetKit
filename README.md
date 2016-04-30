@@ -1,4 +1,5 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/LocalMeasureWidgetKit.svg)](https://cocoapods.org/pods/LocalMeasureWidgetKit)
+[![Build Status](https://travis-ci.org/localmeasure/LocalMeasureWidgetKit.svg?branch=master)](https://travis-ci.org/localmeasure/LocalMeasureWidgetKit)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/localmeasure)
 
 ![Local Measure](https://3h05ydjpmgg26w82hvkove2m-wpengine.netdna-ssl.com/wp-content/themes/local-measure/images/lm-logo.svg)
