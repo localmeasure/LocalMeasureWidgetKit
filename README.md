@@ -85,22 +85,26 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
 
 ### Listing widgets
 
-To get your list of widgets you simply need to call `func widgets(completion: (widgets: [LMWidget]) -> Void)` and pass it a closure to handle the result.
+To get your list of widgets you simply need to call `widgets(success: (widgets: [LMWidget]) -> Void, failure: (error: NSError) -> Void)` and pass it both a success and failure closure to handle the possible results.
 
 ```swift
 LMWidgetKit().widgets({ (widgets) -> Void in
   print(widgets)
+}, failure: { (error) -> Void in
+  print(error)
 })
 ```
 
 
 ### Listing a widget's posts
 
-To list a widget's posts, call `func posts(widgetHash: String, completion: (posts: [LMPost]) -> Void)` and pass it the widget's hash and a closure to handle the result.
+To list a widget's posts, call `func posts(widgetHash: String, success: (posts: [LMPost]) -> Void, failure: (error: NSError) -> Void)`, pass it the widget's hash and both a success and failure closure to handle the possible results.
 
 ```swift
-LMWidgetKit().posts("<WIDGET_HASH>", completion: { (posts) -> Void in
+LMWidgetKit().posts("<WIDGET_HASH>", success: { (posts) -> Void in
   print(posts)
+}, failure: { (error) -> Void in
+  print(error)
 })
 ```
 
